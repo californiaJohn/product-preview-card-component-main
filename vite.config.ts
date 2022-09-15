@@ -5,7 +5,7 @@ import * as path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: '/product-preview-card-component-main/',
+	base: '/product-preview-card-component-main/tree/pages',
 	resolve: {
 		alias: {
 			'@': path.resolve(__dirname, 'src'),
