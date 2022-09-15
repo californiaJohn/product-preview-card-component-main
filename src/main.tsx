@@ -23,7 +23,7 @@ function App() {
 	return (
 		<Container>
 			<Card>
-				<Image src={`../images/image-product-${isMobile ? 'mobile' : 'desktop'}.jpg`} />
+				<Image src={`/image-product-${isMobile ? 'mobile' : 'desktop'}.jpg`} />
 				<ContentContainer>
 					<Category>PERFUME</Category>
 					<Title> Gabrielle Essence Eau De Parfum</Title>
